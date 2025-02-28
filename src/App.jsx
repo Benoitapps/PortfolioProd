@@ -22,6 +22,7 @@ function App() {
         <SpeedInsights />
       </div>
     </div>
+    
   );
 }
 
