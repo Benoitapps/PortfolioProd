@@ -27,7 +27,7 @@ function Projet() {
             <Badge img={mongo} name="Mongo" color="bg-purple-500" />
           </div>
           <h2 className="card-title font-bold">Site d’analitiques </h2>
-          <p className="text-sm">
+          <p className="text-sm text-justify">
             Réalisation d’un site en Node.js et React.js permettant de collecter
             et de gérer des informations sur les interactions des utilisateurs
             avec un site, telles que les clics, les mouvements de souris, le
@@ -55,7 +55,7 @@ function Projet() {
           <h2 className="card-title font-bold">
             Plateforme de Réservation de coachs sportifs privés
           </h2>
-          <p className="text-sm">
+          <p className="text-sm text-justify">
             Développement d'une plateforme avec API Platform et React permettant
             la réservation de coachs à proximité grâce à la localisation, aux
             filtres et à la recherche, avec prise de rendez vous directement sur
@@ -83,7 +83,7 @@ function Projet() {
           <h2 className="card-title font-bold">
             Plateforme de gestion de recettes
           </h2>
-          <p className="text-sm">
+          <p className="text-sm text-justify">
             Développement d’un site similaire à Marmiton en Node et React, avec
             une différence majeure : la recherche se fait par question orale ou
             écrite, permettant à une IA (api openAI) intégrée de sélectionner
@@ -111,7 +111,7 @@ function Projet() {
           <h2 className="card-title font-bold">
             Site réservation de billets
           </h2>
-          <p className="text-sm">
+          <p className="text-sm text-justify">
             Développement d’un site en Symfony/Twig permettant aux entreprises
             inscrites de proposer à la vente des billets d’avion à tarifs
             réduits, disponibles pour une durée limitée, et à leurs clients de

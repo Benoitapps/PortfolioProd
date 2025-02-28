@@ -24,10 +24,10 @@ import docker from "../../../public/iconOutil/docker-svgrepo-com.svg";
 
 function Skills() {
   return (
-    <div className="flex flex-wrap justify-center gap-10 w-5/6 z-10">
+    <div className="flex flex-wrap justify-center gap-8 w-5/6 z-10">
       {/* Première ligne */}
       <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
-        <p className="mb-3">Langage :</p>
+        <p className="mb-3">Langages :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
             <img src={php} alt="PHP Logo" className="w-14 h-14" />
@@ -46,7 +46,7 @@ function Skills() {
       </div>
 
       <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
-        <p className="mb-3">Framework Back :</p>
+        <p className="mb-3">Frameworks Back :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
             <img src={symfony} alt="Symfony Logo" className="w-14 h-14" />
@@ -76,7 +76,7 @@ function Skills() {
       </div>
 
       <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
-        <p className="mb-3">Framework Front :</p>
+        <p className="mb-3">Frameworks Front :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
             <img src={Reactlogo} alt="React Logo" className="w-14 h-14" />

@@ -37,7 +37,7 @@ function BodyPage() {
       {/* SECTION EXPERIENCE */}
       <section id="experience" className="min-h-screen p-10 scroll-mt-24">
         <h2 className="text-center font-bold text-4xl mb-16 drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
-          Expériences et Formation
+          Expériences et Formations
         </h2>
         <div className="flex justify-center">
           <Resume />

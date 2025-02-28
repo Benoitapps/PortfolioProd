@@ -41,7 +41,7 @@ function Resume() {
               DUT informatique
             </h3>
             <p className="text-base font-normal text-white dark:text-gray-400">
-              UPEC, IUT Sénart-Fontainbleau
+              UPEC, IUT Sénart-Fontainebleau
             </p>
           </li>
         </ol>
@@ -63,24 +63,24 @@ function Resume() {
               Saaswedo, Paris
             </p>
             <ul className="mb-4 font-normal text-white dark:text-gray-400 text-sm  list-disc list-inside space-y-4">
-              <li>
+              <li className="text-justify">
                 <strong>Développement Full Stack :</strong> Modernisation d'un
                 ancien logiciel en PHP et JavaScript avec une refonte du design,
                 l'ajout de nouvelles fonctionnalités et la maintenance du code.
               </li>
-              <li>
+              <li  className="text-justify">
               <strong>Développement front-end d’un logiciel sous AngularJS</strong>, avec la
                 refonte graphique de certains éléments pour les rendre plus
                 performants, esthétiques et ergonomiques, ainsi que l'ajout et
                 la modification de différentes fonctionnalités.
               </li>
-              <li>
+              <li  className="text-justify">
               <strong>Développement front-end d’une application mobile sous AngularJS</strong>
                 afin d'aligner la nouvelle application mobile avec le site web
                 existant, en respectant les maquettes, le responsive design et
                 le bon fonctionnement de l'application.
               </li>
-              <li>
+              <li  className="text-justify">
                 Création d'une extension Chrome facilitant la gestion des clés
                 de langage au sein de l'application pour les développeurs.
               </li>
