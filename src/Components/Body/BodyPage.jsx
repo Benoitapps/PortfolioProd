@@ -12,7 +12,7 @@ function BodyPage() {
     <div className="flex flex-col">
       {/* SECTION PROFIL */}
       <section id="top" className="min-h-screen p-10 scroll-mt-24">
-        <div className="flex flex-col mt-52">
+        <div className="flex flex-col mt-48">
           <Home />
         </div>
       </section>
