@@ -16,7 +16,7 @@ import MyCoach from "../../../public/s2/Mycoach.svg.webp";
 function Projet() {
   return (
     <div className="flex flex-wrap justify-center gap-20 w-full sm:w-5/6 md:w-4/6 lg:w-4/6">
-      <div className="card bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="card rounded-sm bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <figure className="px-3 pt-3">
           <img src={S2} alt="Dev" className="rounded-xl" />
         </figure>
@@ -66,7 +66,7 @@ function Projet() {
         </div>
       </div>
 
-      <div className="card bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="card rounded-sm bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <figure className="px-3 pt-3">
           <img
             src={cook}
@@ -95,7 +95,7 @@ function Projet() {
         </div>
       </div>
 
-      <div className="card bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="card rounded-sm bg-base-100 w-full sm:w-96 md:w-96 lg:w-96 shadow-xl bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <figure className="px-3 pt-3">
           <img
             src={beclal}

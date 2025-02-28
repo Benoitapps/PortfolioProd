@@ -4,7 +4,7 @@ import email from "../../../public/Contact/email-8-svgrepo-com.svg";
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center bg-cube p-8 rounded-lg shadow-lg max-w-md mx-auto drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+    <div className="flex flex-col items-center bg-cube p-8 rounded-sm shadow-lg max-w-md mx-auto drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
       <h1 className="text-4xl font-semibold text-white mb-6 drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">Contact</h1>
 
       <div className="flex items-center space-x-4 mb-6">

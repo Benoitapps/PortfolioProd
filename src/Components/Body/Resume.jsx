@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div className="flex flex-col md:flex-row justify-center items-start gap-5 md:gap-20 ">
       
-      <div className=" bg-cube p-5 flex justify-center m-5  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className=" bg-cube rounded-sm p-5 flex justify-center m-5  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
       <div className="">
       <h1 className="mb-5 text-3xl">Education</h1> 
         <ol className="relative justify-center border-s border-gray-200 dark:border-gray-700">
@@ -47,7 +47,7 @@ function Resume() {
         </ol>
         </div>
       </div>
-      <div className=" p-5 md:w-1/3 m-5 bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className=" p-5 rounded-sm md:w-1/3 m-5 bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
       <div className="">
       <h1 className="mb-5 text-3xl">Experience</h1> 
         <ol className="relative  border-s border-gray-200 dark:border-gray-700">

@@ -26,7 +26,7 @@ function Skills() {
   return (
     <div className="flex flex-wrap justify-center gap-14 w-4/6 z-10">
       {/* Première ligne */}
-      <div className="flex flex-col rounded-xl p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">Langage :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
@@ -45,7 +45,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="flex flex-col rounded-xl p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">Framework Back :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
@@ -75,7 +75,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="flex flex-col rounded-xl p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">Framework Front :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
@@ -95,7 +95,7 @@ function Skills() {
       </div>
 
       {/* Seconde ligne */}
-      <div className="flex flex-col rounded-xl p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">BDD :</p>
         <div className="flex flex-row space-x-3 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
@@ -121,7 +121,7 @@ function Skills() {
         </div>
       </div>
 
-      <div className="flex flex-col rounded-xl p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
+      <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">Outils :</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <div className="relative p-1 bg-slate-50 w-fit flex justify-center group">
