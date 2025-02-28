@@ -24,7 +24,7 @@ import docker from "../../../public/iconOutil/docker-svgrepo-com.svg";
 
 function Skills() {
   return (
-    <div className="flex flex-wrap justify-center gap-14 w-4/6 z-10">
+    <div className="flex flex-wrap justify-center gap-10 w-5/6 z-10">
       {/* Première ligne */}
       <div className="flex flex-col rounded-sm p-5 bg-cube w-fit min-w-[250px]  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
         <p className="mb-3">Langage :</p>
