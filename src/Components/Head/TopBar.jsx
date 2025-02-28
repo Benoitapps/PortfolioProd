@@ -4,9 +4,8 @@ import photoProfil from "../../../public/Photo.png";
 
 const TopBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeButton, setActiveButton] = useState(null); // Suivi du bouton actif
+  const [activeButton, setActiveButton] = useState(null); 
 
-  // Fonction pour faire défiler vers une section spécifique
   const handleScroll = (e, sectionId) => {
     e.preventDefault();
 
@@ -17,33 +16,28 @@ const TopBar = () => {
         block: "start",
       });
 
-      // Modifier l'URL sans recharger la page
       window.history.pushState(null, "", `#${sectionId}`);
     } else {
       console.error("Section not found:", sectionId);
     }
   };
 
-  // Fonction pour ouvrir/fermer le menu mobile
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Fonction pour gérer le clic sur un bouton du menu
   const handleButtonClick = (e, id) => {
-    setActiveButton(id); // Mettre à jour l'état lorsque le bouton est cliqué
-    handleScroll(e, id); // Gérer le défilement et la mise à jour de l'URL
+    setActiveButton(id); 
+    handleScroll(e, id); 
   };
 
-  // Fonction pour gérer le clic sur le bouton "top" et réinitialiser l'état du menu
   const handleButtonClickTop = (e, id) => {
     setActiveButton(id);
-    handleScroll(e, id); // Gérer le défilement
+    handleScroll(e, id); 
     setActiveButton(null);
     setIsMenuOpen(false);
   };
 
-  // Fonction pour détecter la section visible lors du défilement
   const handleScrollDetect = () => {
     const sections = [
       { id: "profil", label: "Mon Profil" },
@@ -65,18 +59,17 @@ const TopBar = () => {
       }
     });
 
-    if (foundActive) {
-      setActiveButton(foundActive); // Mettre à jour le bouton actif
+    if (foundActive && foundActive !== activeButton) {
+      setActiveButton(foundActive); 
     }
   };
 
-  // Ajouter un écouteur d'événement de défilement
   useEffect(() => {
     window.addEventListener("scroll", handleScrollDetect);
     return () => {
       window.removeEventListener("scroll", handleScrollDetect);
     };
-  }, []);
+  }, [activeButton]); 
 
   return (
     <nav className="bg-barre border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 shadow-lg z-[9999]">
@@ -90,7 +83,7 @@ const TopBar = () => {
             />
             <Typography
               variant="h4"
-              onClick={(e) => handleButtonClickTop(e, "top")} // Réinitialiser l'état et faire défiler vers le haut
+              onClick={(e) => handleButtonClickTop(e, "top")}
               className="cursor-pointer"
             >
               Benoît De Carli
@@ -136,9 +129,9 @@ const TopBar = () => {
               <li key={item.id}>
                 <a
                   href={`#${item.id}`}
-                  onClick={(e) => handleButtonClick(e, item.id)} // Mise à jour de l'état lors du clic
+                  onClick={(e) => handleButtonClick(e, item.id)} 
                   className={`block py-2 px-3 text-white rounded-sm cursor-pointer ${
-                    activeButton === item.id ? "bg-cyan-500" : "" // Ajouter la classe bg-cyan-500 si le bouton est actif
+                    activeButton === item.id ? "bg-cyan-500" : ""
                   }`}
                 >
                   {item.label}
