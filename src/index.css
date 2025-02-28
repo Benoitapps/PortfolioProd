@@ -1,0 +1,28 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Personnalisation de la barre de défilement pour les navigateurs Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #4c566a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #00BCD4;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00BCD4;
+  }
+  
+  /* Personnalisation de la barre de défilement pour Firefox */
+  html {
+    scrollbar-width: thin; /* Taille de la barre de défilement */
+    scrollbar-color: #00BCD4 #4c566a; /* Couleur du pouce et de la piste */
+  }
+  
