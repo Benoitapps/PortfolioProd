@@ -3,6 +3,7 @@ import Head from "./Components/Body/Head.jsx";
 import Body from "./Components/Body/BodyPage.jsx";
 import TopBar from "./Components/Head/TopBar.jsx";
 import "./index.css";
+import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
       <div className="flex-grow overflow-y-auto">
         <Body />
+        <Analytics/>
       </div>
     </div>
   );
