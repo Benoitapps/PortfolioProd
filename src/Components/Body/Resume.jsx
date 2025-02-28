@@ -6,7 +6,7 @@ function Resume() {
       
       <div className=" bg-cube rounded-sm p-5 flex justify-center m-5  drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
       <div className="">
-      <h1 className="mb-5 text-3xl">Education</h1> 
+      <h1 className="mb-5 text-3xl">Formations</h1> 
         <ol className="relative justify-center border-s border-gray-200 dark:border-gray-700">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -49,7 +49,7 @@ function Resume() {
       </div>
       <div className=" p-5 rounded-sm md:w-1/3 m-5 bg-cube drop-shadow-[10px_10px_10px_rgba(0,255,255,0.5)]">
       <div className="">
-      <h1 className="mb-5 text-3xl">Experience</h1> 
+      <h1 className="mb-5 text-3xl">Expériences</h1> 
         <ol className="relative  border-s border-gray-200 dark:border-gray-700">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -69,13 +69,13 @@ function Resume() {
                 l'ajout de nouvelles fonctionnalités et la maintenance du code.
               </li>
               <li>
-                Développement front-end d’un logiciel sous AngularJS, avec la
+              <strong>Développement front-end d’un logiciel sous AngularJS</strong>, avec la
                 refonte graphique de certains éléments pour les rendre plus
                 performants, esthétiques et ergonomiques, ainsi que l'ajout et
                 la modification de différentes fonctionnalités.
               </li>
               <li>
-                Développement front-end d’une application mobile sous AngularJS
+              <strong>Développement front-end d’une application mobile sous AngularJS</strong>
                 afin d'aligner la nouvelle application mobile avec le site web
                 existant, en respectant les maquettes, le responsive design et
                 le bon fonctionnement de l'application.
