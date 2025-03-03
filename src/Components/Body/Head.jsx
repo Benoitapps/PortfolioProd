@@ -17,8 +17,8 @@ function Head() {
           </p>
           <p className="whitespace-normal w-full text-justify">
             Développeur web passionné, je vous invite à découvrir mes projets et
-            réalisations, fruits d’un parcours riche en expériences et en
-            apprentissages. Chaque projet illustre mon engagement à concevoir
+            réalisations, fruits d’un parcours riche en expérience et en
+            apprentissage. Chaque projet illustre mon engagement à concevoir
             des solutions innovantes, performantes et adaptées aux besoins
             réels. Actuellement en recherche d’une opportunité professionnelle,
             je souhaite mettre mes compétences en développement web au service

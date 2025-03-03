@@ -26,7 +26,7 @@ function Projet() {
             <Badge img={Reactlogo} name="React" color="bg-blue-500" />
             <Badge img={mongo} name="Mongo" color="bg-purple-500" />
           </div>
-          <h2 className="card-title font-bold">Site d’analitiques </h2>
+          <h2 className="card-title font-bold">Site d’analytique</h2>
           <p className="text-sm text-justify">
             Réalisation d’un site en Node.js et React.js permettant de collecter
             et de gérer des informations sur les interactions des utilisateurs
